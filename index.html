@@ -1,7 +1,524 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
+<head>
+    <title>Jamie Darbon - Game Developer</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="header">
+        <ul>
+            <div class="container-fluid" id="headerContainer">
+            <li>
+                <div class="headerButton">
+                    <a href="#about">About Me</a>
+                </div>
+            </li>
+            <li>
+                <div class="headerButton">
+                    <a href="#education">Education</a>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Portfolio</button>
+                    <div class="dropdown-content">
+                        <a href="#portfolio">Game Development and Programming</a>
+                        <a href="#test">3D Art and VFX</a>
+                        <a href="#art">Art and Graphic Design</a>
+                    </div>
+                </div>
+            </li>
+            <li style="float: right;">
+                <div class="headerButton">
+                    <a href="#contact">Contact</a>
+                </div>
+            </li>
+    </div>
+    </ul>
+    </div>
+    <div class="container-fluid" id="contents">
+        <div class="container-fluid" id="intro">
+            <div class="col-sm-12" id="titles">
+                <div id="title" class="sol-sm-10">
+                    <p style="text-align:left;">Game Developer | Artist | Programmer</p>
+                    <h1 style="text-align:left; display:inline;">JAMIE<br>DARBON<h2 style="display: inline; font-family: Assistant; font-size: 24px;">BSc</h2></h1>
+                    <p style="text-align:left;">
+                        Jamie Darbon is a Game Developer living in Brighton, England.<br>In 2023, Jamie graduated from the University of Sussex
+                        with a First Class Honours degree in "Games and Multimedia Environments".
+                    </p>
+                </div>
+                <br>
+            </div>
+            <video width="400" playsinline autoplay loop muted>
+                <source src="portfolio.mp4" type="video/mp4" />
+            </video>
+            <div class="container-fluid" id="about">
+                <div class="col-sm-8">
+                    <img src="Jamie-Darbon.jpg" width="35%" id="picture" />
+                    <h1>About Me</h1>
+                    <p id="text">
+                        I am a self-motivated and driven individual who is always striving to improve and willing to
+                        learn. From a young age, I have spent time learning and developing skills which I now use to
+                        bring myself an income as a self-employed artist and designer online. During my time in
+                        secondary school, I balanced my education with making comics which I published every
+                        week, helping me to develop time management skills. I've always had an interest in
+                        computers and video games, which have fueled my professional development and informed
+                        my career choices. Along with developing artistic skills, I spent a lot of time growing up
+                        developing technical skills relating to game development and am proficient in various
+                        coding languages such as C#, HLSL, Java and Javascript, as well as some limited experience with C, C++ and Unreal Engine.
+                        <br />
+                        <br />
+                        In my spare time, I like to work on a range of creative projects such as video editing, art, and
+                        game development. I am currently using my skills to work on an experimental 3D game about
+                        graffiti in the Unity engine where I have created all the assets myself, including 3D models
+                        and shaders written in HLSL. I am also semi-fluent in French, having studied it up to A-Level
+                        and continuing to study it in my spare time in the years since.
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid" id="education">
+                <div class="col-sm-8">
+                    <h1>Education</h1>
+                    <p id="educationText">I have achieved qualifications at three separate levels over the course of my educational career: A Bachelor's Degree, A-Levels and GCSEs.</p>
+                    <div class="row" id="cards">
+                        <div class="card">
+                            <div class="container" id="eduCard">
+                                <h1>Higher Education</h1>
+                                <p>Games and Multimedia Environments (BSc) - University of Sussex</p>
+                                <p>Graduated with First Class Honours</p>
+                                <ul>
+                                    <li>Introduction to Programming - 93%</li>
+                                    <li>Introduction to Multimedia - 87%</li>
+                                    <li>3D Modelling and Animation - 79%</li>
+                                    <li>Programming for 3D - 78%</li>
+                                    <li>Final Dissertation - 77%</li>
+                                    <li>Game Design and Development - 76%</li>
+                                    <li>Visual Effects - 74%</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container" id="eduCard">
+                                <h1>A-Level</h1>
+                                <p>Dover Grammar School for Boys</p>
+                                <ul>
+                                    <li>Art - A</li>
+                                    <li>French - C</li>
+                                    <li>Mathematics - D</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="container" id="eduCard">
+                                <h1>GCSE</h1>
+                                <p>Dover Grammar School for Boys</p>
+                                <ul>
+                                    <li>English Language - 9</li>
+                                    <li>English Literature - 7</li>
+                                    <li>Mathematics - 7</li>
+                                    <li>Chemistry - A</li>
+                                    <li>Physics - A</li>
+                                    <li>Biology - B</li>
+                                    <li>Computer Science - A*</li>
+                                    <li>Art - A*</li>
+                                    <li>French - A</li>
+                                    <li>German - B</li>
+                                </ul>
+                                <p>(For numbered grades, 7 is an A equivalent)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="portfolio">
+                <div class="col-sm-8">
+                    <h1>Portfolio</h1>
+                    <p id="portfolioText">
+                        I spend a large amount of my free time working on myself and creative projects and as such,
+                        I have a diverse and varied portfolio, with projects such as games, 3D models and art.<br />
+                        For example, this website is entirely my own work, with all code, design and content being
+                        made solely by myself. <br />Below, you will find various examples of my work, each detailing the
+                        project's background and how I aided in its development. <br /><br />
+                        You can find my GitHub portfolio at: <a href="https://github.com/jamiedarbon">https://github.com/jamiedarbon</a><br />
+                        You can find my ArtStation portfolio at: <a href="https://www.artstation.com/sleepyboi">https://www.artstation.com/sleepyboi</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid" id="graffiti">
+                <h2>Graffiti Street (2023)</h2>
+                <h3>Solo Project - Programming, Art, 3D Modelling</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="graffitiContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/l1y9Llu-Pss">
+                            </iframe>
+                            Graffiti Street is the project I worked on for my final dissertation at the University of Sussex. In this project, I aimed to create a game which utilises
+                            modern technologies to provide the player with an environment in which they could interact with the game world by drawing onto it. It is for this reason that
+                            the theme of graffiti was chosen.<br /> <br />
+                            In this project, I handled all the programming, design, modelling and art myself. The project required me to learn how to create my own shaders in Unity through
+                            the use of HLSL coding, in which I created the cel shader and outline shader you can see in the accompanying video. As previously mentioned, this project
+                            was made with the Unity engine, meaning the majority of the code outside of shaders was written in C#. I also used my existing skills in Blender to create the
+                            models which you can see in the game. Graffiti Street is in active development and is being updated outside of the scope of university, now that I have
+                            graduated.<br />
+                            <br />
+                            You can find my final report for the project
+                            <a href="https://drive.google.com/file/d/18cX0Z23H9US1nIlUBWhC_q-xZweHS0Az/view?usp=sharing" target="_blank" rel="noopener noreferrer">here</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="caffeine">
+                <h2>Caff3.ine (2022)</h2>
+                <h3>Group Project - Programming, Environment Design</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="caffeineContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/pchPhwYF5Iw">
+                            </iframe>
+                            Caff3.ine was a group project I worked on in my second year at the University of Sussex. We were tasked with an 8 month development cycle, in which time, we were
+                            expected to produce a full, working game from conceptualisation to implementation. This project also required us to make a design document for the game.<br /><br />
+                            As this project was done in a group, it taught me key communication and team work skills, as well as giving me an idea of how to work in a professional environment
+                            through practices such as code reviews and version control via GitHub.<br /><br />
+                            Throughout this project, I worked on greyboxing the level design, system logic in C#, programming UI and implementing JSON compatibility with the UI.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="graffiti">
+                <h2>Snip and Shear (2023)</h2>
+                <h3>Group Project - Level Design, Animation, 3D Modelling</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="graffitiContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/KPXSuODL4LI">
+                            </iframe>
+                            Snip and Shear was the submission my group and I made for Global Game Jam 2023, where the theme was "Roots". The team on this project was the same as Caff3.ine. <br /><br />
+                            For this project, I wanted to take a break from programming and develop my skills in other areas, namely 3D modelling and animation, as I had just taught
+                            myself Blender and was eager to expand my portfolio. I also lead the level design for this game, designing and modelling the game map entirely by myself.
+                            When designing the level, I kept level design principles in mind and took inspiration from shooter games such as Halo and Team Fortress 2 when building the
+                            level, which resulted in a level with a large focus on chokepoints and high-risk, high-reward collectables.<br /><br />
+                            The game can be played in browser <a href="https://jamiedarbon.itch.io/snip-and-shear" target="_blank">here.</a><br /><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="caffeine">
+                <h2>Untitled Mascot Platformer (2022)</h2>
+                <h3>Solo Project - Programming, Character Design, Art, Animation</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="caffeineContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/V9O4V4eZxuQ">
+                            </iframe>
+                            This project was made as a solo endeavour in the summer of 2022 between the end of my second year and the start of my final year at university. <br /><br />
+                            At university, I had only been taught how to work with 3D and while I had prior experience with Unity 2D, I did not have experience working with spritesheets
+                            and the animator component. This, combined with a desire to learn animation and develop my skills as a game artist lead me to making this proof of concept.
+                            Ultimately, the project did not reach completion due to the sheer quantity of animation I would have had to do in order to turn it into a full commercial game,
+                            however, I learned some useful skills and experimented with using Trello and Kanban boards for the first time to organise the development of the project.<br /><br />
+                            Below you can see some concept art and animations used in the project.
+                        </p>
+                    </div>
+                </div>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="MC Ref.png" style="width:100%;">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="MC concept art.png" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="Mascot_Idle_Colour.gif" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="Mascot_Run.gif" style="width:100%">
+                    </div>
+                    <div style="text-align: center">
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="container-fluid" id="graffiti">
+                <h2>Dual Runner (2022)</h2>
+                <h3>Group Project - Level Design, Game Design, Animation</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="graffitiContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/7xlWqLgTodY">
+                            </iframe>
+                            Dual Runner was a group submission for Global Game Jam 2022, where the theme was "Duality". <br /><br />
+                            Dual Runner's levels were designed to somewhat emulate that of  the classic Sonic the Hedgehog games. In its level design,
+                            you can see design which splits the level into multiple paths, with the top path being harder to
+                            stay on, but significantly faster, rewarding the player with the sensation of going fast. Additionally, when designing the game's mechanics, I
+                            decided to use the level design to attempt to teach the mechanics to the player without a word of dialogue, introducing the player to a mechanic in
+                            a safe environment first, then removing the safety net and building on the mechanic to create interesting and challenging level design.<br /><br />
+                            You can download the game <a href="https://globalgamejam.org/2022/games/dualrunner-0">here.</a><br /><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="caffeine">
+                <h2>Property Tycoon (2022)</h2>
+                <h3>Group Project - Programming, UI, Design</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="caffeineContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/qSTyX428grU">
+                            </iframe>
+                            Property Tycoon was a second year group project in which we were tasked as a group to create a digital version of the popular game Monopoly.<br /><br />
+                            Recreating Monopoly meant working with an array-based solution in which each space on the game board was its own array object and derived from a parent class
+                            which contained information such as the name, property value, position on the board and any purchased properties. This project required us to get this data and
+                            load it in from an external file, which would allow for the board to be customised by the user with custom property names and prices, which is why you can see
+                            the board loading up placeholder names before the game starts.<br /><br />
+                            Other areas which had to be created included creating a dynamic UI which changes the position of the user's card on the screen depending on the number of players,
+                            AI controlled players and the ability to load and save the game through the use of JSON files.<br /><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="graffiti">
+                <h2>Ground Control (2020)</h2>
+                <h3>Solo Project - Level Design, Game Design, Programming</h3>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="graffitiContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/xNAxNR1pt0s">
+                            </iframe>
+                            Ground Control was my submission for the GTMK 2020 game jam, where the theme was "Out of Control".<br /><br />
+                            This game was my first fully realised project and my first proper endeavour into Unity and game development. In the game, the player must control
+                            a satellite which needs to be positioned over a planet in order to receive data. However, the satellite is malfunctioning and will have a random effect
+                            applied to it as it attempts to line itself up. These range from disabled thrusters to corrupted VRAM.<br /><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="test">
+                <h2>3D Art and VFX</h2>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="caffeineContents">
+                            <iframe width="420" height="315"
+                                    src="https://www.youtube.com/embed/pM1RTuJWLeA">
+                            </iframe>
+                            I have also had experience with 3D modelling and visual effects, being proficient in a range of software, including Blender, Cinema 4D, 3DS Max, Photoshop,
+                            After Effects and Premiere Pro. <br /><br />
+                            In this section, you will find my demo reel of various projects I have made in my time as a student, including both university submissions and personal projects.
+                            I am self taught in Blender and Photoshop, and have been using my skills in these softwares to help generate a side income whilst studying at university.<br /><br />
+                            This show reel demonstrates my abilities in areas such as Animation, 3D Modelling (including Weight Painting, Rigging and Texturing), VFX Compositing, Video Editing and
+                            Colour Grading.<br /><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="art">
+                <h2>Graphic Design and Art</h2>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="graffitiContents">
+                            Being one of my strongest subjects since GCSE, art is a hobby which I have pursued since, having drawn since 2015 and taking commissions for custom art and
+                            graphic design since around 2018. In this section, I showcase a selection of digital and traditional art, as well as graphic design work I have done for
+                            various events run within the local community. <br /><br />
+                        </p>
+                    </div>
+                </div>
+                <h2>Art</h2>
+                <div class="slideshow-container2">
+                    <div class="mySlides2">
+                        <img src="IMG_5079.jpg" style="width:100%;">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="IMG_5254.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="IMG_5423.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="IMG_5729.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="comic page pog text.png" style="width:100%;">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="crouch end 4.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="mae.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="BadgeSpreadRobbie.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="meowth irl cam.png" style="width:100%;">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="terrible fate.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="trashjunkies .png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="20xx2.png" style="width:100%">
+                    </div>
+                    <div class="mySlides2">
+                        <img src="Frisky Furrets.png" style="width:100%">
+                    </div>
+                    <div style="text-align: center">
+                        <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                        <a class="next" onclick="plusSlides2(1)">❯</a>
+                    </div>
+                </div>
+                <h2>Graphic Design</h2>
+                <div id="graffitiVideo">
+                    <p id="graffitiContents">
+                        A large amount of my graphic design work comes from working with people in the UK competitive Super Smash Bros. Scene,
+                        hosting running a local tournament in Brighton myself every other Sunday.<br /><br />
+                        Between 2021 and 2022, I also co-owned and ran an eSports organisation titled "Horde Global" (<a href="https://twitter.com/HordeGlobal" target="_blank">https://twitter.com/HordeGlobal</a>), in which I produced graphic design, hosted
+                        events, ran streams and ran the social media accounts. You can see work for this eSports org in the slideshow below.
+                    </p>
+                </div>
+                <div class="slideshow-container3">
+                    <div class="mySlides3">
+                        <img src="Horde Blab.png" style="width: 100% ">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="Horde Tea Party.png" style="width: 100%">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="horde x regen 2022.png" style="width: 100%">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="BsUlt 140523.png" style="width: 100%">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="128 cap.png" style="width: 100%">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="resurgence comms.png" style="width: 100%">
+                    </div>
+                    <div class="mySlides3">
+                        <img src="Resurgence Overlay.png" style="width: 100%">
+                    </div>
+                    <div style="text-align: center">
+                        <a class="prev" onclick="plusSlides3(-1)">❮</a>
+                        <a class="next" onclick="plusSlides3(1)">❯</a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <div class="container-fluid" id="contact">
+                <h2>Contact</h2>
+                <div class="row">
+                    <div id="graffitiVideo">
+                        <p id="caffeineContents">
+                            If you are interested in hiring me for your project or are an employer or recruiter and would like to contact me about a role, 
+                            please contact me via email or LinkedIn.<br /><br />
+                            You can find my CV <a href="https://drive.google.com/file/d/19gyNn9kps97FXlNRzDNudAjnyhU-6RIY/view?usp=sharing" target="_blank">here.</a><br /><br />
+                            Email: <a href="mailto: jamiedarbon64@gmail.com" target="_blank">jamiedarbon64@gmail.com</a><br />
+                            Telephone: 07738 095792<br />
+                            LinkedIn: <a href="https://www.linkedin.com/in/jamie-darbon-6b9781252/" target="_blank">https://www.linkedin.com/in/jamie-darbon-6b9781252/</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="container-fluid" id="footerContainer">
+                    <p></p>
+                </div>
+        </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <script>
+            let slideIndex2 = 1;
+            showSlides2(slideIndex2);
+
+            function plusSlides2(n) {
+                showSlides2(slideIndex2 += n);
+            }
+
+            function currentSlide2(n) {
+                showSlides2(slideIndex2 = n);
+            }
+
+            function showSlides2(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides2");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex2 = 1 }
+                if (n < 1) { slideIndex2 = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex2 - 1].style.display = "block";
+                dots[slideIndex2 - 1].className += " active";
+            }
+        </script>
+        <script>
+            let slideIndex3 = 1;
+            showSlides3(slideIndex3);
+
+            function plusSlides3(n) {
+                showSlides3(slideIndex3 += n);
+            }
+
+            function currentSlide3(n) {
+                showSlides3(slideIndex3 = n);
+            }
+
+            function showSlides3(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides3");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex3 = 1 }
+                if (n < 1) { slideIndex3 = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex3 - 1].style.display = "block";
+                dots[slideIndex3 - 1].className += " active";
+            }
+        </script>
 </body>
 </html>
